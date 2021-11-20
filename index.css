@@ -1,0 +1,92 @@
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #87b7df;
+    
+  }
+  image {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Ffast-food-junk-food-hamburger-sandwich-beer-finger-food-wallpaper-tefoo&psig=AOvVaw15HI5HvMEPV8VMbSsjdqAR&ust=1637471606080000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLCfpqmXpvQCFQAAAAAdAAAAABAX);
+  }
+  
+  body {
+      background-color: rgb(252, 217, 173);
+  }
+
+  div {
+      margin: 300px 630px;
+  }
+  
+  ul li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #838de6;
+  }
+  
+  /* This hides the dropdowns */
+  
+  
+  li ul { 
+      display: none;
+     }
+  
+  ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  ul li a:hover { 
+      background: #6277ee;
+     }
+  
+  /* Display the dropdown */
+  
+  
+  li:hover > ul {
+    display: block;
+    position: absolute;
+  }
+  
+  li:hover li {
+       float: none;
+     }
+  
+  li:hover a { 
+      background: #162850; 
+    }
+  
+  li:hover li a:hover {
+       background: #86a3c0;
+     }
+  
+  .main-navigation li ul li {
+       border-top: 0;
+     }
+  
+  /* Displays second level dropdowns to the right of the first level dropdown */
+  
+  
+  ul ul ul {
+    left: 100%;
+    top: 0;
+  }
+  
+  /* Simple clearfix */
+  
+  
+  
+  ul:before,
+  ul:after {
+    content: " "; 
+    display: table; 
+  }
+  
+  ul:after {
+      clear: both;
+     }
